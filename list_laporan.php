@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css">
 </head>
 <body>
+
 <div style="width: 800px;">
 	<table class="table table-striped" style="width: 800px; border : solid red 1px;">
 	<thead>

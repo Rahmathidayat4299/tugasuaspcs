@@ -1,4 +1,5 @@
 <form  action="" method="POST" >
+<h1 style = "text-align: center;">ADD Data Anggota</h1>
         <div class="form-group">
             <label for="id">ID</label>
             <input type="text" class="form-control" id="id" aria-describedby="emailHelp" name = "id" placeholder="masukkan id">

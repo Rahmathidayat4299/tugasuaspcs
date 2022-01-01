@@ -1,4 +1,5 @@
 <form  action="" method="post" >
+<h1 style = "text-align: center;">Data Pinjaman Anggota</h1>
     <div class="form-group">
         <label for="id">ID</label>
         <input type="text" class="form-control" id="id" aria-describedby="emailHelp" name = "id" placeholder="masukkan id">
@@ -17,7 +18,7 @@
     
 
     <div class="form-group">
-        <label for="exampleInputEmail1">Simpanan</label>
+        <label for="exampleInputEmail1">pinjaman</label>
         <input type="text" class="form-control" id="pinjaman" name ="pinjaman" aria-describedby="emailHelp" placeholder="masukkan jumlah pinjaman">
         
     </div>
@@ -36,7 +37,7 @@
         $pinjaman = $_POST['pinjaman'];
 		$SQL = "INSERT INTO pinjaman(id,nik,nama,pinjaman) VALUES('$id','$nik','$nama','$pinjaman')";
 		if (mysqli_query($MySQli,$SQL)) {
-			header("location:?page=list");
+			header("location:?page=list_pinjaman");
 		} else {
 			echo "Gagal menambahkan data buku tamu !!";
 		}
